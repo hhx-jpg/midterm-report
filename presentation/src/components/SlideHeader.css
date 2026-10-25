@@ -1,0 +1,66 @@
+/* SlideHeader — 统一页眉样式（warm-keynote 气质） */
+
+.sh-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sh-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sh-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  font-weight: 500;
+}
+
+.sh-index {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--text-faint);
+}
+
+.sh-title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.sh-subtitle {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.5;
+  color: var(--text-mute);
+}
+
+.sh-rule {
+  position: relative;
+  height: 1px;
+  background: var(--rule);
+  width: 100%;
+  margin-top: 6px;
+}
+
+.sh-rule-bar {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 4px;
+  width: 72px;
+  border-radius: 2px;
+  background: var(--accent);
+}

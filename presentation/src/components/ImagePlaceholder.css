@@ -1,0 +1,43 @@
+/* ImagePlaceholder — 虚线图片占位块 */
+
+.ph {
+  margin: 0;
+  width: 100%;
+  border: 2px dashed var(--rule);
+  border-radius: 20px;
+  background: var(--surface-3);
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+
+.ph-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+.ph-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--text-faint);
+}
+
+.ph-caption {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--text-2);
+  line-height: 1.4;
+}
+
+.ph-hint {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+}

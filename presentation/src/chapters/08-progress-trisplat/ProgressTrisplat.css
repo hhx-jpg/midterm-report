@@ -1,0 +1,31 @@
+.pts-metric {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+}
+
+.pts-metric-num {
+  font-family: var(--font-display-en);
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.pts-metric-label {
+  font-size: 15px;
+  color: var(--text-mute);
+}
+
+.pts-figs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  flex: 1;
+  min-height: 0;
+}

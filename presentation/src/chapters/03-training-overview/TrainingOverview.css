@@ -1,0 +1,21 @@
+.tro .card-grid {
+  align-content: center;
+  flex: 1;
+}
+
+.tro .c-card {
+  gap: 14px;
+  padding: 34px 32px;
+}
+
+.tro .c-card-num {
+  font-size: 40px;
+}
+
+.tro .c-card-title {
+  font-size: 30px;
+}
+
+.tro .c-card-body {
+  font-size: 20px;
+}

@@ -1,0 +1,20 @@
+.pvq-result {
+  position: relative;
+}
+
+.pvq-badge {
+  align-self: flex-start;
+  display: inline-flex;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.pvq-split .split-left {
+  justify-content: center;
+}

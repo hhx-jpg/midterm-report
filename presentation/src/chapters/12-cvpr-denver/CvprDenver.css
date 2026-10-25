@@ -1,0 +1,39 @@
+.cvd-split {
+  grid-template-columns: 1fr 1.25fr;
+}
+
+.cvd-split .split-left {
+  justify-content: center;
+}
+
+.cvd-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cvd-row {
+  display: flex;
+  align-items: baseline;
+  gap: 22px;
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  padding: 18px 26px;
+}
+
+.cvd-key {
+  flex-shrink: 0;
+  min-width: 72px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.cvd-val {
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--text);
+}

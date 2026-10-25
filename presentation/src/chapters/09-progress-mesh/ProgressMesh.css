@@ -1,0 +1,21 @@
+.pms .flow-step {
+  padding: 16px 14px;
+}
+
+.pms .f-step-title {
+  font-size: 19px;
+}
+
+.pms .f-step-note {
+  font-size: 15px;
+}
+
+.pms-imgs {
+  flex: 1;
+  min-height: 0;
+  grid-template-rows: 1fr;
+}
+
+.pms-imgs .fig {
+  height: 100%;
+}

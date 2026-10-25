@@ -1,0 +1,81 @@
+.cov {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cov-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  text-align: center;
+  max-width: 1480px;
+}
+
+.cov-kicker {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+.cov-title {
+  margin: 0;
+  font-size: 96px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--text);
+}
+
+.cov-title-em {
+  color: var(--accent);
+}
+
+.cov-topic {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--text-2);
+  letter-spacing: 0.02em;
+}
+
+.cov-rule {
+  width: 88px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--accent);
+}
+
+.cov-info {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 21px;
+  color: var(--text-2);
+}
+
+.cov-info-item {
+  white-space: nowrap;
+}
+
+.cov-sep {
+  width: 1px;
+  height: 18px;
+  background: var(--rule);
+}
+
+.cov-lab {
+  font-size: 20px;
+  color: var(--text-mute);
+}
+
+.cov-foot {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--text-faint);
+}

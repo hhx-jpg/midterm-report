@@ -1,0 +1,41 @@
+.cls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cls-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.cls-title {
+  margin: 0;
+  font-size: 120px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+.cls-sub {
+  font-size: 32px;
+  color: var(--text-2);
+}
+
+.cls-rule {
+  width: 88px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--accent);
+}
+
+.cls-foot {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--text-mute);
+}

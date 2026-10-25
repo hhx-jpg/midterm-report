@@ -1,0 +1,42 @@
+.ach-card {
+  gap: 10px;
+  padding: 22px 26px;
+}
+
+.ach-card .c-card-body {
+  font-size: 19px;
+}
+
+.ach-bottom {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 22px;
+  flex: 1;
+  min-height: 0;
+}
+
+.ach-tbl-card {
+  gap: 14px;
+  padding: 22px 26px;
+  overflow: hidden;
+}
+
+.ach-tbl-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.ach-tbl-card .tbl {
+  font-size: 16px;
+}
+
+.ach-tbl-card .tbl th,
+.ach-tbl-card .tbl td {
+  padding: 8px 12px;
+}
+
+.ach-bottom .fig {
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+# build artifacts
+presentation/node_modules/
+presentation/dist/
+
+# original screenshot source (already copied into presentation/public/images)
+pics/
+
+# personal review materials (not for public repo)
+科研记录表.jpg
+自评表1.jpg
+自评表2.jpg
+论文成果.pdf
+韩昊轩中期审核材料.zip

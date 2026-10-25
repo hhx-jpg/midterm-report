@@ -1,0 +1,17 @@
+.ovw-grid {
+  align-content: center;
+  flex: 1;
+}
+
+.ovw-card {
+  gap: 14px;
+  padding: 36px 40px;
+}
+
+.ovw-card .c-card-num {
+  font-size: 40px;
+}
+
+.ovw-card .c-card-title {
+  font-size: 32px;
+}

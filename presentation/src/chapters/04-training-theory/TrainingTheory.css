@@ -1,0 +1,15 @@
+.trt-list {
+  gap: 20px;
+}
+
+.trt-list > li {
+  font-size: 22px;
+  line-height: 1.6;
+  padding-left: 30px;
+}
+
+.trt-list > li::before {
+  top: 0.62em;
+  width: 10px;
+  height: 10px;
+}
